@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
-import FeaturesImage from "@/public/images/features.png";
+import FeaturesImage from "@/public/images/features2.png";
 
 export default function Features() {
   return (
@@ -36,17 +36,12 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+              Blockchain-Powered Hosting
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+            Decentralized Internet Protocol (DIP)
             </h2>
-            <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
-            </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
             <Image
@@ -56,6 +51,47 @@ export default function Features() {
               height={384}
               alt="Features"
             />
+          </div>
+          <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
+            <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
+
+
+              <p className="text-2xl text-indigo-200/65">
+                DIP is the underlying framework that powers WTTP and the entire
+                Technically Web3 ecosystem. It enables:
+              </p>
+
+              <div className="mt-10 text-lg text-indigo-200/65">
+                <ul className="list-disc list-inside text-left">
+                  <li>
+                    <strong>WTTP:</strong> The decentralized protocol for
+                    serving and retrieving content from Web Contracts.
+                  </li>
+                  <li>
+                    <strong>WebTokens:</strong> Blockchain tokens used for
+                    authentication, payments, and more within the WTTP
+                    ecosystem.
+                  </li>
+                  <li>
+                    <strong>The TW3 Browser:</strong> The first browser that
+                    supports WTTP, built from a fork of MinBrowser, and
+                    open-source for developers.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
+            <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
+              <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
+                <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+                Future-Proof Infrastructure
+                </span>
+              </div>
+              <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+                Roadmap
+              </h2>
+            </div>
           </div>
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
@@ -73,11 +109,11 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Project Milestones
+                Phase 1: Foundation
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Laying down the core framework of the Web3 Transfer Protocol
+                (WTTP) and launching decentralized Web Contracts.
               </p>
             </article>
             <article>
@@ -91,11 +127,11 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
+                Phase 2: Browser Integration
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                The TW3 Browser: The first browser to fully support WTTP,
+                ensuring decentralized web browsing experience.
               </p>
             </article>
             <article>
@@ -112,11 +148,11 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
+                Phase 3: Security Enhancement
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Introducing WTTPS, the secure and encrypted version of WTTP,
+                along with advanced privacy protocols.
               </p>
             </article>
             <article>
@@ -135,14 +171,13 @@ export default function Features() {
                   d="m11.888 4.35-.514-.858 1.717-1.027.513.858a16.9 16.9 0 0 1 2.4 8.677 16.9 16.9 0 0 1-2.4 8.676l-.513.859-1.717-1.028.514-.858A14.9 14.9 0 0 0 14.003 12a14.9 14.9 0 0 0-2.115-7.65Z"
                   opacity=".48"
                 />
-                <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+                Phase 4: Token Integration
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                WebTokens: Enabling decentralized payments, access control, and
+                more through blockchain integration.
               </p>
             </article>
             <article>
@@ -159,11 +194,11 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Flexible Workflows
+                Phase 5: Decentralized Governance
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Building decentralized governance mechanisms for the future of
+                WTTP and TW3 ecosystem.
               </p>
             </article>
             <article>
@@ -180,11 +215,11 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Unified Timeline
+                Phase 6: Full Decentralization
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Achieving the goal of full decentralization for WTTP, ensuring a
+                truly open and distributed web.
               </p>
             </article>
           </div>
